@@ -1,6 +1,18 @@
 App Kickstarter
 ===================
 
+Get it
+------
+
+Clone the repository as follows.
+
+```
+git clone --recursive git://github.com/SpaceApi/app-framework.git /srv/http/spaceapi_app
+```
+
+We assumed that your document root is at /srv/http/spaceapi_app. Adapt it to your needs.
+
+
 Add a new VirtualHost
 ---------------------
 
