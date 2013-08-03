@@ -35,11 +35,16 @@
     define('SAPI', 'apache');
     /************************************************************************************************/
 
+    $requested_app = str_replace("/", "", $_SERVER['REDIRECT_URL']);
+
+    if( empty($requested_app) )
+        $requested_app = "intro";
+
 	// we must whitelist the input
 	$load_app = APPSDIR . "error-page";
     foreach(glob( APPSDIR . "*") as $app_dir)
     {
-		if ( "skeleton" === basename($app_dir) )
+		if ( $requested_app === basename($app_dir) )
 			$load_app = $app_dir;
     }
 

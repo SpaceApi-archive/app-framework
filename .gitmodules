@@ -7,9 +7,9 @@
 [submodule "c/js/phpjs"]
 	path = c/js/phpjs
 	url = git@github.com:SpaceApi/phpjs.git
-[submodule "apps/intro"]
-	path = apps/intro
-	url = git@github.com:SpaceApi/spaceapiapp_intro.git
 [submodule "apps/myapp"]
 	path = apps/myapp
 	url = git@github.com:SpaceApi/app-skeleton.git
+[submodule "apps/error-page"]
+	path = apps/error-page
+	url = git@github.com:SpaceApi/spaceapiapp_error-page.git
