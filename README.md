@@ -1,4 +1,4 @@
-Space API App Kickstarter
+App Kickstarter
 ===================
 
 Add a new VirtualHost
