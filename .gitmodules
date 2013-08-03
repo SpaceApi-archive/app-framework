@@ -1,0 +1,15 @@
+[submodule "bootstrap"]
+	path = bootstrap
+	url = git://github.com/SpaceApi/bootstrap.git
+[submodule "c/images/round-social-media-buttons"]
+	path = c/images/round-social-media-buttons
+	url = git://github.com/timhuisman/round-social-media-buttons.git
+[submodule "c/js/phpjs"]
+	path = c/js/phpjs
+	url = git@github.com:SpaceApi/phpjs.git
+[submodule "apps/intro"]
+	path = apps/intro
+	url = git@github.com:SpaceApi/spaceapiapp_intro.git
+[submodule "apps/myapp"]
+	path = apps/myapp
+	url = git@github.com:SpaceApi/app-skeleton.git

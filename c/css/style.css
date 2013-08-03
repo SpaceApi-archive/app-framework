@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/yanonekaffeesatz/YanoneKaffeesatz-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/yanonekaffeesatz/YanoneKaffeesatz-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/yanonekaffeesatz/YanoneKaffeesatz-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../fonts/yanonekaffeesatz/YanoneKaffeesatz-ExtraLight.ttf") format("truetype");
+}
+
+/******************************************************************/
+
+body {
+  padding: 30px 20px 0px;
+    background: url("../images/background.jpg") no-repeat fixed 50% 0 transparent;
+}
+
+#main-nav li {
+  list-style: square;
+  margin-left: 26px;
+}
+
+#main-nav li:first-of-type{
+  color: white;
+  margin-left: 0px;
+}
+
+.add-space-button
+{
+  
+  background-color: #eef;
+  color: #99d;
+  font-weight: bold;
+}
+
+.add-space-button:hover
+{
+    background-color: #d8d8ff !important;
+}
+
+.container {
+  box-shadow: 0px 0px 23px 5px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  padding: 40px 60px 40px;
+  position: relative;
+}
+
+.container  section {
+  padding: 0px 0px 25px 0px !important;
+}
+
+/*
+.footer {
+    background: #888;
+    height: 120px;
+}
+*/
+
+/* flag that shows the validation status */
+input:required:valid, textarea:required:valid {
+  /*background-image: url("data:image/png;base64,<inline-data-here>");*/
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.spaceapi-box {
+    position: relative;
+    margin: 15px 0;
+    padding: 39px 19px 14px;
+    *padding-top: 19px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* Echo out a label (without text) */
+.spaceapi-box:after {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    color: #9da0a4;
+    
+    -webkit-border-radius: 4px 0 4px 0;
+    -moz-border-radius: 4px 0 4px 0;
+    border-radius: 4px 0 4px 0;
+}
+
+.spaceapi-box-note:after {
+    content: "Note";
+}
+
+/* the social icons */
+.header-social-icons a {
+    margin-right: 40px;
+    margin-top: 20px;
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ;
+    -moz-transition: all 0.2s ;
+    -ms-transition: all 0.2s ;
+    -o-transition: all 0.2s ;
+    transition: all 0.2s ;
+}
+
+.header-social-icons a:hover {
+    opacity: 1;
+    -moz-transform: scale(1) rotate(0deg) translateX(0px) translateY(-5px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(-5px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(0deg) translateX(0px) translateY(-5px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(-5px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(-5px) skewX(0deg) skewY(0deg);
+}
+
+.github-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.header-social-icons .tooltip {
+    opacity: 0.8;
+}
+
+h2 {
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
+    font-size: 3em;
+    margin-bottom: 25px;
+    letter-spacing: 0.08em;
+}
+
+h3 {
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-bottom: 18px;
+    letter-spacing: 0.03em;
+}
+
+h4 {
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    letter-spacing: 0em;
+}
+
+h5 {
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    letter-spacing: 0em;
+}
+
+/* some rules to be applied if now bootstrap rows are used */
+pre, ul, table {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.app-badge {
+    opacity: 0.35;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+
+    -webkit-transition: all 0.2s ;
+    -moz-transition: all 0.2s ;
+    -ms-transition: all 0.2s ;
+    -o-transition: all 0.2s ;
+    transition: all 0.2s ;
+}
+
+.app-badge:hover {
+    opacity: 1;
+}
