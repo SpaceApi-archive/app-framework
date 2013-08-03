@@ -40,8 +40,7 @@ Create a new repository in your Github account or if Gitorious is your favourite
 Here we assume that your username is johndoe and your app is about a map. Now run the following commands.
 
 
-<pre><code>
-cd apps/myapp
+<pre><code>cd apps/myapp
 git remote add myapp git@github.com:johndoe/map.git
 git config branch.master.remote myapp
 git config branch.master.merge refs/heads/master
