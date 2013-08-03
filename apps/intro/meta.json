@@ -1,0 +1,13 @@
+{
+    "App": "Skeleton",
+    "Description": "An example to show how to write a SpaceAPI app.",
+    "Authors": [
+        {
+            "Name": "Romain Schmitz",
+            "Nickname": "Slopjong",
+            "Hackerspace": "Syn2cat"
+        }
+    ],
+    "License": "",
+    "Created": "29.7.2013"
+}
