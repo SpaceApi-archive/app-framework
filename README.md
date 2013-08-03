@@ -1,4 +1,4 @@
-Space API Kickstart
+Space API App Kickstart
 ===================
 
 Add a new VirtualHost
