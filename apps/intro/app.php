@@ -80,7 +80,7 @@ git push</code></pre>
             <li>add your app as a submodule: <pre><code>git submodule add git://github.com/johndoe/map.git map</code></pre></li>
             <li>open menu.php and add a new entry for your app:
 
-            <pre><code>$menu = array(
+            <pre><code>\$menu = array(
     "intro" => "Home",
     "map" => "The ultimate Space API map",
 );</code></pre>
