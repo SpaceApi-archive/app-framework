@@ -47,7 +47,7 @@ Add a new entry to your <em>/etc/hosts</em>:
 Prepare your repository
 -----------------------
 
-Create a new repository in your Github account or if Gitorious is your favourite git service provide, then in your Gitorious account.
+Create a new repository in your Github account or if Gitorious is your favourite git service provider, then in your Gitorious account.
 
 Here we assume that your username is johndoe and your app is about a map. Now run the following commands.
 
