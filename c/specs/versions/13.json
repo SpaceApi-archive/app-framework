@@ -277,7 +277,7 @@
             "type": "array",
             "items": {
                 "type": "string",
-                "enum": ["email", "issue_mail", "twitter", "ml"]
+                "enum": ["email", "issue_mail", "twitter", "ml", "irc"]
             },
             "minItems": 1
         },
